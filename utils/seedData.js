@@ -26,12 +26,12 @@ export const sampleEvents = [
     organizer: "Tech Innovators Association"
   },
   {
-    title: "International Food Festival",
-    description: "Experience gourmet cuisine from around the world. Over 100 chefs showcasing their signature dishes.",
+    title: "football match",
+    description: "nepal vs india",
     date: "2025-08-10",
     time: "11:00",
-    location: "Millennium Park, Chicago, IL",
-    category: "Food",
+    location: "dasraath stadium",
+    category: "Sports",
     price: "75.00",
     capacity: 3000,
     organizer: "Global Culinary Arts Society"
