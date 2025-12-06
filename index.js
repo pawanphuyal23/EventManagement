@@ -1,8 +1,11 @@
+// This is the entry point for Expo Router
 import { registerRootComponent } from 'expo';
+import { ExpoRoot } from 'expo-router';
 
-import App from './App';
+// https://docs.expo.dev/router/reference/troubleshooting/#expo-router-app-entry
+export function App() {
+  const ctx = require.context('./app');
+  return <ExpoRoot context={ctx} />;
+}
 
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
 registerRootComponent(App);
